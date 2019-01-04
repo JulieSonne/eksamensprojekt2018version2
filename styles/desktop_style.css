@@ -1,0 +1,482 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0;
+}
+Body {
+    font-family: "helvetice", "arial", sans-serif;
+	background-color: #afcef8;
+}
+
+/*styling af menu*/
+.navigation {
+    border-bottom: 7px dashed red;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.navigationelementer {
+    text-align: center;
+    padding: 3% 0;
+}
+.menusmall {
+    display: none;
+}
+
+/*Tilbage pil*/
+.tilbage img{
+	margin: 20% 20% 0 37%;
+	position: flex;
+	width: 20%;
+	height: auto;
+}
+
+/*Overskrift placeret i kasser*/
+.placering-overskrift {
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.placering-overskrift-flow {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.overskrift {
+    border: 1px solid #666;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    box-shadow: 2.5px 2.5px 2.5px #666;
+    font-family: "helvetica" "arial" "sans-serif";
+    font-size: 1.25em;
+    font-weight: normal;
+}
+/*Den gule prik*/
+.placering-gul {
+    text-align: center;
+    margin-top: 2%;
+}
+.gul {
+    height: 40px;
+    width: 40px;
+    background-color: #FFE910;
+    border-radius: 50%;
+    display: inline-block;
+}
+/*Signatur*/
+.placering-navn {
+    text-align: center;
+}
+.navn {
+    height: auto;
+    width: 20%;
+}
+
+/*Siden projekter*/
+.projektbillede img {
+    width: 100%;
+    height: auto;
+}
+.projektbillede {
+    padding: 5%;
+}
+.projektkasse {
+    border: 7px dashed white;
+    width: 75%;
+    margin-top: 5%;
+}
+.projektoverskrift {
+    margin-top: 10%;
+	text-decoration: none; 
+	color: black;
+}
+.projektoverskrift .projektbrodtekst {
+    padding: 3%;
+}
+.projektbrodtekst {
+    line-height: 2;
+	width: 70%;
+}
+.projektoverskriftlink{
+	text-decoration: none;
+	color: black;
+}
+
+/*Siden omkring*/
+.omkringbillede img {
+    width: 100%;
+    height: auto;
+}
+.omkringbillede {
+    padding: 5%;
+}
+.omkringkasse {
+    border: 7px dashed white;
+    width: 75%;
+    margin-top: 5%;
+}
+
+.omkringbrodtekst {
+	line-height: 2;
+	padding: 3%;
+	margin-top: 15%;
+}
+
+/*Siden kontakt*/
+.kontaktform {
+    border: 7px dashed white;
+    width: 50%;
+    margin-top: 5%;
+	margin-left: 25%; 
+}
+input {
+    padding: 3%;
+    margin: 3% 0 3% 7%;
+    width: 80%;
+    border: none;
+    font-size: 1em;
+}
+textarea {
+    padding: 3%;
+    padding-bottom: 15%;
+    margin: 3% 0 3% 7%;
+    width: 80%;
+    border: none;
+    font-size: 1em;
+}
+#send {
+    width: 40%;
+    padding: 3% 30%;
+}
+.sendknap {
+    font-size: 1em;
+    padding: 7% 5%;
+    margin-bottom: 8%;
+	background: white;
+}
+.kontaktkasse {
+    display: inline-block;
+    width: 100%;
+}
+.kontaktskub {
+    margin-top: 8%;
+}
+
+.skub {
+	margin-bottom: 10%;
+}
+
+/*Siden flow*/
+.flowform {
+    border: 7px dashed white;
+    width: 73%;
+    margin-top: 3%;
+   text-align: center;
+	margin-bottom: 10%;
+}
+.flowkasse {
+    display: inline-block;
+    width: 90%;
+}
+.flowbillede img {
+    width: 80%;
+    height: auto;
+    margin: 15% 0 3% 0;
+}
+
+.flowbilledetekst{
+	color: white;
+	line-height: 2;
+}
+.flowtekst {
+    text-align: left;
+    margin: 5% 0;
+	line-height: 2;
+	padding: 0 0 0 5%;
+}
+.flowtekst p {
+    width: 90%;
+}
+
+.flowgulplacering {
+    text-align: left;
+    display: flex;
+	padding: 0 0 0 3%;
+}
+
+/*De gule prikker*/
+.flowgul {
+    height: 40px;
+    width: 40px;
+    background-color: #FFE910;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5% 2.5% 5% 5%;
+}
+.flowlink {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-top: 7%;
+}
+
+.flowreferencelink {
+	text-decoration: none;
+	color: blue;
+	font-weight: 700;
+}
+
+.flowskub {
+	margin-bottom: 3%;
+}
+
+.procesbillede img{
+	width: 90%;
+	height: auto;
+}
+
+/*Styling af medium*/
+@media handheld, only screen and (max-width: 864px) and (min-width: 414px) {
+	 
+/*Navigation*/
+.navigation a {
+    font-size: 1.25em;
+}
+	
+.navigation {
+	margin-left: 0.5%;	
+	}
+/*Siden projekter*/
+.projektkasse {
+    display: inline-block;
+    float: left;
+    width: 100%;
+	margin-left: 0.5%;
+}
+	
+.projektoverskrift, .projektbrodtekst {
+	margin-left: 5%;
+	width: 100%;
+}	
+	
+/*Siden omkring*/
+.omkringkasse {
+    display: inline-block;
+    float: left;
+    width: 100%;
+	margin-left: 0.5%;
+}
+	.omkringoverskrift, .omkringbrodtekst {
+		margin-left: 5%;
+	}
+/*Siden flow*/
+h3 {
+    font-size: 1.25em;
+}
+.flowgul {
+    height: 20px;
+    width: 20px;
+    background-color: #FFE910;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5% 2.5% 5% 5%;
+}
+	 
+}
+
+/*Styling af small*/
+@media handheld, only screen and (max-width: 414px) {
+/*navigation*/
+.navigation a {
+    font-size: 1em;
+}
+/*Menu på small*/
+.menusmall {
+    display: block;
+    position: absolute;
+}
+	
+.smallskub {
+		padding-top: 4%;
+	}	
+nav h2 {
+    text-align: left;
+    width: 100%;
+    padding: 5% 5%;
+    margin: 0;
+    float: none;
+    font-size: 1.5em;
+}
+h2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+.navi {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+/*Transition effekt*/
+.navi .menu {
+    width: 110%;
+    margin: 20% 0 10% 0;
+    right: 0px;
+    background: #afcef8;
+    height: auto;
+    position: relative;
+    transition: top 2.0s ease-in-out;
+}
+.navi input#toggle {
+    display: none;
+}
+.navi input#toggle + label {
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+    background: url(menu.png) center no-repeat #afcef8;
+    position: absolute;
+    right: 0;
+    top: auto;
+    border-bottom: 5px dashed red;
+    margin: 3% 0 3% 0;
+    width: 100%;
+    height: 15%;
+    margin-left: 100%;
+}
+input#toggle:checked ~ .menu {
+    top: -400px;
+}
+label img {
+    width: 10%;
+    height: auto;
+    margin: 0 83% 3% 0;
+}
+.navigation {
+    display: none;
+}
+
+/*overskrift*/
+.overskrift {
+    height: 27px;
+    width: 27px;
+    box-shadow: 2.5px 2.5px 2.5px #666;
+    font-size: 1em;
+}
+.placering-overskrift {
+    border-spacing: 8px;
+    margin-top: 36%;
+}
+/*Den gule prik*/
+.gul {
+    height: 30px;
+    width: 30px;
+}
+.placering-gul {
+    margin-top: 5%;
+}
+	
+/*Signatur*/
+.navn {
+    width: 50%;
+}
+
+/*Siden projeketer*/
+.projektkasse {
+	display: inline-block; 
+	float: left; 
+	width: 90%;
+	margin-bottom: 10%;
+	margin-left: 6.5%;
+	}
+.projektbillede img {
+    width: 75%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.projektoverskrift {
+    margin-top: 2.5%;
+    font-size: 1.25em;
+    margin-left: 15%;
+	padding-right: 5%;
+}
+/*Siden omkring*/
+.omkringkasse {
+    display: inline-block;
+    float: left;
+    width: 90%;
+	margin-bottom: 10%;
+	margin-left: 6.5%;
+}
+
+.omkringbillede img {
+    width: 75%;
+    height: auto;
+  margin-left: 10%;
+    margin-top: 10%;
+}
+.omkringoverskrift {
+    margin-top: 2.5%;
+    font-size: 1.25em;
+	text-align: center;
+}
+.omkringbrodtekst {
+    text-align: left;
+    max-width: 80%;
+	margin: 0 0 10% 10%;
+	padding-bottom: 5%;
+}
+	
+/*Kontakt*/
+.kontaktform {
+    width: 100%;
+}
+.kontaktkasse {
+padding-right: 35%;
+}
+
+	
+/*flow*/
+h2 {
+    font-size: 1em;
+}
+.flowgul {
+    height: 20px;
+    width: 20px;
+    background-color: #FFE910;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5% 2.5% 5% 5%;
+}
+.flowform {
+	display: inline-block;
+    float: left;
+    width: 90%;
+	margin-bottom: 10%;
+	margin-left: 6.5%;
+	}
+	.flowtekst p {
+    width: 100%;
+}
+	/*regulering af h1*/
+	.flowoverskrift {
+		font-size: 1.55em;
+	}
+	/*regulering af overskrift i kasse*/
+	.placering-overskrift-flow {
+		border-spacing: 8px;
+        margin-top: 36%;
+	}
+}

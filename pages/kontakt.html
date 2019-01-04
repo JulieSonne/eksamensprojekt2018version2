@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Description" content="Portfolio">
+<meta name="author" content="Julie Agertoft Sonne">
+<title>Kontakt</title>
+<!--Grid layout-->
+<link rel="stylesheet" href="../styles/gridsetup.css">
+<!--Desktop stylesheet-->
+<link rel="stylesheet" href="../styles/desktop_style.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="large-1-1 medium-1-1 small-1-1">
+    <div class="navigation large-1-1 medium-1-1 hide-on-small">
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="../index.html">Hjem</a></div>
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="projekter.html">Projekter</a></div>
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="omkring.html">Omkring</a></div>
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="#">Kontakt</a></div>
+    </div>
+	  <!--menu på small-->
+    <!--Kilde: www.competa.com: Responsive menu with only CSS3 (No JavaScript). Udgivet af Nouh Lahouel. Internetadresse: https://www.competa.com/blog/responsive-menu-with-only-css3-no-javascript/ - Besøgt d. 03.12.2018 (Internet)-->
+	<div class="small-1-1 menusmall">
+	 <nav class="small-1-1 navi"> 
+		
+            <input type="checkbox" id="toggle" checked>   
+                <label for="toggle" class="button"><img src="../images/burgermenu_redigeret.png" width="1310" height="1335" alt=""/></label> 
+                   <section class="menu">
+                            <h2><a href="../index.html" class="active smallmenua">Hjem</a></h2>
+                            <h2><a href="projekter.html" class="smallmenua">Projekter</a></h2>
+                            <h2><a href="omkring.html" class="smallmenua">Omkring</a></h2>
+                            <h2><a href="kontakt.html" class="smallmenua">Kontakt</a></h2>
+				 </section>
+        	</nav>
+		</div>
+  </div>
+  <div class="header large-1-1 medium-1-1 small-1-1">
+    <table class="placering-overskrift">
+      <tbody>
+        <tr>
+          <th class="overskrift">K</th>
+          <th class="overskrift">O</th>
+          <th class="overskrift">N</th>
+          <th class="overskrift">T</th>
+          <th class="overskrift">A</th>
+          <th class="overskrift">K</th>
+          <th class="overskrift">T</th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="large-1-1 medium-1-1 small-1-1 placering-gul"><span class="gul"></span></div>
+  <div class="large-1-1 medium-1-1 small-1-1 kontaktkasse skub">
+	  <div class="kontaktform">
+      <div class="kontaktkasse">
+        <form action="mailto:jasonne@live.dk" method="post" enctype="text/plain">
+          <p>
+            <input class="kontaktskub" type="text" name="name" placeholder="Dit navn..." autofocus required>
+          </p>
+          <p>
+            <input type="email" name="email" placeholder="Din Email..." required>
+          </p>
+          <p>
+            <textarea name="comment" placeholder="Din besked..."></textarea>
+          </p>
+          <div id="send">
+            <input type="submit" value="send" class="sendknap">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+	
+</div>
+</body>
+</html>
