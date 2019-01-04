@@ -27,6 +27,11 @@ Body {
     display: none;
 }
 
+.understregning {
+	padding-bottom: 2%;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.25);
+}
+
 /*Tilbage pil*/
 .tilbage img{
 	margin: 20% 20% 0 37%;
