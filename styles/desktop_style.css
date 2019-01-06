@@ -198,12 +198,14 @@ textarea {
     width: 80%;
     height: auto;
     margin: 15% 0 3% 0;
+/*	border: 1px solid white;*/
 }
 
 .flowbilledebund img {
 	width: 80%;
 	height: auto;
 	margin: 3% 0 10% 0; 
+	border: 1px solid white;
 }
 
 .flowbilledetekst{
